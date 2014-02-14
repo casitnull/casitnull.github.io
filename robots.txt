@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://casitnull.github.io/sitemap.xml 
+Sitemap: http://www.r-pi.cn/sitemap.xml 
