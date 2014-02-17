@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://casitnull.github.io
+url: http://www.r-pi.cn
 title: 灵猫博客
 subtitle: NONE IS ALL, SO I AM NULL
 author: Casit
@@ -13,13 +13,13 @@ description:
 # You can customize the format as defined in
 # http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime
 # Additionally, %o will give you the ordinal representation of the day
-date_format: "ordinal"
+date_format: "%F"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email: casit@outlook.com
+email:
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -70,7 +70,7 @@ github_skip_forks: true
 
 # Twitter
 twitter_user:
-twitter_tweet_button: true
+twitter_tweet_button: false
 
 # Google +1
 google_plus_one: false
@@ -92,6 +92,14 @@ delicious_count: 3
 # Disqus Comments
 disqus_short_name:
 disqus_show_comment_count: false
+
+# Duoshuo Comments
+duoshuo_short_name:
+
+# Youyan comments and sharing
+youyan_uid: 1808358
+youyan_customiz_du: www.r-pi.cn
+youyan_jiathis_uid: 1335285501844138
 
 # Google Analytics
 google_analytics_tracking_id:

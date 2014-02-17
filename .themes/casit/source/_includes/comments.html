@@ -1,0 +1,49 @@
+{% comment %} Load script if social comments are enabled and `page.comments` is either empty (index) or set to true {% endcomment %}
+
+{% if site.disqus_short_name and page.comments == true %}
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
+  </section>
+{% endif %}
+
+{% if site.duoshuo_short_name and page.comments != false %}
+<!-- Duoshuo Comment BEGIN -->
+<section>
+<h1>Comments</h1>
+<div class="ds-thread"></div>
+<script type="text/javascript">
+	var duoshuoQuery = {short_name:'{{ site.duoshuo_short_name }}'};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+</script>
+</section>
+<!-- Duoshuo Comment END -->
+{% endif %}
+
+{% if site.youyan_uid and page.comments != false %}
+<!-- Youyan Comment BEGIN -->
+
+{% if site.youyan_customiz_du %}
+<script type="text/javascript">
+var uyan_config = {
+      'du':'{{ site.youyan_customiz_du }}'
+};
+ </script>
+{% endif %}
+
+<section>
+<h1>Comments</h1>
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid={{ site.youyan_uid }}"></script>
+<!-- UY END -->
+</section>
+<!-- Youyan Comment END -->
+{% endif %}
