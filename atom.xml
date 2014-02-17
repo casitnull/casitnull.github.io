@@ -4,17 +4,17 @@
   <title><![CDATA[灵猫博客]]></title>
   <link href="http://www.r-pi.cn/atom.xml" rel="self"/>
   <link href="http://www.r-pi.cn/"/>
-  <updated>2014-02-14T17:36:51+08:00</updated>
+  <updated>2014-02-17T17:24:59+08:00</updated>
   <id>http://www.r-pi.cn/</id>
   <author>
     <name><![CDATA[Casit]]></name>
-    <email><![CDATA[casit@outlook.com]]></email>
+    
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
-    <title type="html"><![CDATA[my first test post]]></title>
+    <title type="html"><![CDATA[My First Test Post]]></title>
     <link href="http://www.r-pi.cn/blog/2014/02/14/my-first-test-post/"/>
     <updated>2014-02-14T17:27:20+08:00</updated>
     <id>http://www.r-pi.cn/blog/2014/02/14/my-first-test-post</id>
