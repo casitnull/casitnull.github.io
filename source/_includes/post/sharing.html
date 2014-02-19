@@ -8,4 +8,25 @@
   {% if site.facebook_like %}
     <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
   {% endif %}
+  {% if site.youyan_uid and site.youyan_jiathis_uid %}
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style_24x24">
+		<a class="jiathis_button_qzone"></a>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_tqq"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_renren"></a>
+		<a href="http://www.jiathis.com/share?uid={{ site.youyan_uid }}" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+		<a class="jiathis_counter_style"></a>
+	</div>
+	<script type="text/javascript">
+	var jiathis_config = {data_track_clickback:'true'};
+	</script>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid={{ site.youyan_jiathis_uid }}" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+  {% endif %}
+  {% if site.baidu_share_inpage_enable %}
+<div class="bdsharebuttonbox"><a class="bds_more" href="#" data-cmd="more">分享到：</a><a title="分享到QQ空间" class="bds_qzone" href="#" data-cmd="qzone">QQ空间</a><a title="分享到新浪微博" class="bds_tsina" href="#" data-cmd="tsina">新浪微博</a><a title="分享到腾讯微博" class="bds_tqq" href="#" data-cmd="tqq">腾讯微博</a><a title="分享到人人网" class="bds_renren" href="#" data-cmd="renren">人人网</a><a title="分享到微信" class="bds_weixin" href="#" data-cmd="weixin">微信</a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{"bdSize":16},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+  {% endif %}
 </div>
