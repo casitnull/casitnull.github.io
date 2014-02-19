@@ -4,7 +4,7 @@
   <title><![CDATA[灵猫博客]]></title>
   <link href="http://www.r-pi.cn/atom.xml" rel="self"/>
   <link href="http://www.r-pi.cn/"/>
-  <updated>2014-02-17T17:47:41+08:00</updated>
+  <updated>2014-02-19T14:34:20+08:00</updated>
   <id>http://www.r-pi.cn/</id>
   <author>
     <name><![CDATA[Casit]]></name>
@@ -18,11 +18,21 @@
     <link href="http://www.r-pi.cn/blog/2014/02/14/my-first-test-post/"/>
     <updated>2014-02-14T17:27:20+08:00</updated>
     <id>http://www.r-pi.cn/blog/2014/02/14/my-first-test-post</id>
-    <content type="html"><![CDATA[<p>asdf</p>
+    <content type="html"><![CDATA[<ol>
+<li>asdf</li>
+<li><p>asdf</p></li>
+<li><p>adsf</p>
 
-<p>asdfasdf</p>
+<p> asdfasd</p></li>
+</ol>
+
+
+<p>asdf
+asdfasdf</p>
 
 <p>asdfsadfasdfasd</p>
+
+<p><img src="http://www.r-pi.cn/images/post-images/00A.jpg" alt="test img" /></p>
 ]]></content>
   </entry>
   
