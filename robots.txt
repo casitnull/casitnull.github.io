@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://www.r-pi.cn/sitemap.xml 
