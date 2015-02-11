@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[灵猫博客]]></title>
-  <link href="http://www.r-pi.cn/atom.xml" rel="self"/>
+  <title><![CDATA[Category: 默认 | 灵猫博客]]></title>
+  <link href="http://www.r-pi.cn/blog/categories/mo-ren/atom.xml" rel="self"/>
   <link href="http://www.r-pi.cn/"/>
   <updated>2015-02-11T15:07:24+08:00</updated>
   <id>http://www.r-pi.cn/</id>
@@ -20,12 +20,10 @@
     <id>http://www.r-pi.cn/blog/2015/02/11/zhong-qi-blog</id>
     <content type="html"><![CDATA[<p>好久没有写博客了。并不是生活缺乏感悟，也不是没有可以总结分享的东西，而是源于懒惰吧。最近在学习Clojure相关的东西，感觉找回了一些过往的激情，故此重新把blog弄起来，分享一些东西把。</p>
 
-<figure class='code'><figcaption><span>Welcome to clojure world</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='clj'><span class='line'><span class="p">(</span><span class="kd">defn </span><span class="nv">hello</span> <span class="p">[</span><span class="nv">name</span><span class="p">]</span>
-</span><span class='line'>  <span class="p">(</span><span class="nb">println </span><span class="s">&quot;Hi&quot;</span> <span class="nb">name </span><span class="s">&quot;, welcome to clojure world!&quot;</span><span class="p">))</span>
-</span></code></pre></td></tr></table></div></figure>
-
+<p><code>clj Welcome to clojure world
+(defn hello [name]
+  (println "Hi" name ", welcome to clojure world!"))
+</code></p>
 
 <pre><code>user&gt; (hello "Casit")
 Hi Casit , welcome to clojure world!
